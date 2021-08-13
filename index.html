@@ -7,19 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-    <!-- <style>
+    <!-- css way 1: style tag
+    <style>
         body{
-            color : red;
+            color:rebeccapurple
         }
     </style> -->
 
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+
 <body>
-    <h1>Suneha's Component Library</h1>
-    <!-- style="color: red" -->
-    <p>
+    <!-- <h1 style="color: royalblue;">Suneha's Component Library</h1> -->
+    <h1 id="lib-header">Suneha's Component Library</h1>
+    <p class="para">
         I am learning web development and I want to create a library which would make all my projects look good and
         consistent.
     </p>
@@ -29,7 +30,7 @@
     <h1>heading 1</h1>
     <h2>heading 2</h2>
     <p>Let me show you the normal text.This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>this is comparatively smaller text.</small>
+    <small class="para">this is comparatively smaller text.</small>
 
     <hr size="3">
 
@@ -46,6 +47,7 @@
     <h2>@links</h2>
 
     <a href="/">Primary Link</a>
+    <br>
     <a href="//">Secondary Link</a>
 
     <hr size="3">
