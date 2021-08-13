@@ -1,15 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* font family->where do you want to apply this font */
+
 body{
-    color:crimson
-}
-h1{
-    color:darkblue
-}
-h2{
-    color: green;
-}
-#lib-header{
-    color: gray;
-}
-.para{
-    color: magenta;
+    font-family: 'Montserrat', sans-serif;
 }
