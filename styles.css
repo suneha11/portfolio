@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:  #7C3AED;
+    --dark-gray:#9CA3AF;
 }
 
 /* font family->where do you want to apply this font */
@@ -66,7 +67,7 @@ hr{
 
 .navigation .navigation-brand{
     font-weight: bold;
-    font-size: 1.1;
+    font-size: 1.1 rem;
 }
 
 .navigation .link{
@@ -79,4 +80,23 @@ hr{
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/**header**/
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px; 
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color:var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
