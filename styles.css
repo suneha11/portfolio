@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
 
 :root{
-    --primary-color:#3D2C8D;
+    --primary-color:#E05297;
 }
 
 body{
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+hr{
+    margin: 2rem 0;
 }
 
 /*******container**********/
@@ -42,4 +46,15 @@ body{
     color: var(--primary-color);
     border-radius: 1rem;
     border: 1px solid var(--primary-color);
+}
+ 
+/************LISTS**********/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0 0.5rem;
 }
