@@ -9,7 +9,10 @@ body{
 }
 
 hr{
-    margin: 2rem 0;
+    border: dotted #F8A1D1 8px;
+    border-bottom: none;
+    margin: 2rem auto;
+    width: 8%;
 }
 
 /*******container**********/
