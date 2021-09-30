@@ -71,7 +71,9 @@ hr{
     font-size: larger;
 }
 
-
+.navigation .link:hover{
+    color: black;
+}
 
 .navigation .navigation-brand{
     font-weight: bold;
