@@ -47,7 +47,8 @@ hr{
     border-radius: 1rem;
     border: 1px solid var(--primary-color);
 }
- 
+
+
 /************LISTS**********/
 
 .list-non-bullet{
@@ -57,4 +58,25 @@ hr{
 .list-item-inline{
     display: inline;
     padding: 0 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.navigation .link{
+    color: white;
+    font-size: larger;
+}
+
+
+
+.navigation .navigation-brand{
+    font-weight: bold;
+}
+
+.navigation .navigation-pills{
+    text-align: right;
 }
