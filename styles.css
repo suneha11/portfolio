@@ -2,10 +2,14 @@
 
 :root{
     --primary-color:#E05297;
+    --secondary-color:#F3BAD6;
+    --dark-grey : #6B7280;
 }
 
 body{
     font-family: 'Montserrat Alternates', sans-serif;
+    /* background-color: #FCEEF5; */
+
 }
 
 hr{
@@ -39,6 +43,10 @@ hr{
     margin: 1rem ;
 }
 
+.link:hover{
+    color: black;
+}
+
 .link-primary{
     background-color:var(--primary-color);
     border-radius: 1rem;
@@ -62,6 +70,8 @@ hr{
     display: inline;
     padding: 0 0.5rem;
 }
+
+/**********NAVIGATION********* */
 
 .navigation{
     background-color: var(--primary-color);
@@ -93,4 +103,30 @@ hr{
     background-color: white;
     border-radius: 1rem;
     color: var(--primary-color);
+}
+
+/* ***********HEADER********** */
+
+.hero{
+    padding: 2rem ;
+}
+
+.hero .hero-img{
+    padding: 2rem;
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    font-size: 2.5rem;
+    color: var(--dark-grey);
+    padding-top: 1rem;
+    text-align: center;
+    line-height: 0.5%;
+}
+ 
+.hero h2{
+    color: var(--primary-color);
+    text-align: center;
 }
